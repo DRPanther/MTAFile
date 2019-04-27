@@ -716,6 +716,11 @@ end;
 
 Procedure LineBreak;
 //This should take the parameter of which filename to writeln to
+//perhaps:
+// Procedure LineBreak(filename:string);
+// begin
+//   writeln(filename,' -=-=-=-=-=-=-=-=-=-=-=-=-=- ');
+// end;
 begin
   writeln(tfOut,' -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ');
 end;
@@ -791,7 +796,7 @@ begin
    writeln(tfOut);
    bbs:=BBSName;
    write(tfOut,(PadCenter(bbs,b)));
-   //commainsert(IntToStr(x));
+   //commainsert(IntToStr(x));          //removed when the Kb, Mb, etc was added
    writeln(tfOut);
    bbs:='';
    Insert(' files',received,1);
@@ -799,7 +804,7 @@ begin
    Insert(bbs,received,1);
    Insert(' in ',received,1);
    Insert(AddLetter(x),received,1);
-   //Insert('Received ',received,1);
+   //Insert('Received ',received,1);     //Removed the word 'Received', as a system is using to announce hatched files, not incoming
    writeln(tfOut,PadCenter(Received,b));
    writeln(tfOut);
    LineBreak;
@@ -823,6 +828,7 @@ end;
 
 Procedure GenericFooter;
 //Generic footer for summary report. Does not contain specific information about inbound files
+//The specific info from previous footer could conatin a bool to exclude information...
 begin
   b:=78;
    bbs:='';
@@ -979,7 +985,7 @@ end;
   write(tfOut,AddLetter(tic[c].size));
   writeln(tfOut);
   writeln(tfOut);
-//This was pretty clever, as it performs a word wrap on long descriptions
+//This was pretty clever, as it performs a word wrap on long descriptions based on TIC specs
   if (length(tic[c].desc[p])>45)and(tic[c].ldesc[1]='') then
   begin
     repeat
