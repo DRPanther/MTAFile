@@ -16,7 +16,10 @@
     </General>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
-      <MajorVersionNr Value="2"/>
+      <MajorVersionNr Value="1"/>
+      <MinorVersionNr Value="7"/>
+      <RevisionNr Value="2"/>
+      <BuildNr Value="1"/>
       <Attributes pvaDebug="True"/>
       <StringTable ProductVersion="1.5.0.5"/>
     </VersionInfo>
