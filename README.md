@@ -2,7 +2,7 @@
 Mystic BBS File Announce Program
 
                              Mys Tic File Announce 
-                                  Ver 1.7.2.1
+                                  Ver 2.0.0.0
 
 								 
 Black Panther(RCS)

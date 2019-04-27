@@ -72,7 +72,11 @@
            running smoothly on this end, and should release the newest version
 1.7.2.1 -=>Decided it was time to open this project up to the world. From this 
            version on, it will be open source, and I'll try to keep this up to
-	   date on github as well. You are free to modify this code in any way
-	   you would like. The only thing I ask, is that if changes are made, 
-	   please send me a copy to see what was changed. Just call it my 
-	   curiosity getting the better of me. :)
+	       date on github as well. You are free to modify this code in any way
+    	   you would like. The only thing I ask, is that if changes are made, 
+	       please send me a copy to see what was changed. Just call it my 
+    	   curiosity getting the better of me. :)
+2.0.0.0 -=>I've bumped the version to 2.0.0.0, so that it's easier to see when
+           the change to open source was done. I've also added a few more notes
+           to the code. I hope everything is commented enough to let you know 
+           what I was doing.
