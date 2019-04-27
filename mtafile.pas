@@ -21,6 +21,7 @@ program mtafile;
   https://www.gnu.org/licenses/gpl-2.0.html
 }
 
+{ Version bump for initial open source release }
 
 { TODO : Insert command to generate report to show hatched files via Mystic log files }
 

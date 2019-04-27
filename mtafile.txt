@@ -1,5 +1,5 @@
                              Mys Tic File Announce 
-                                  Ver 1.7.2.1
+                                  Ver 2.0.0.0
 
 								 
 Black Panther(RCS)
@@ -10,6 +10,13 @@ http://www.castlerockbbs.com
 The sparrows are flying again...
 
                              -=-= What's New =-=-
+
+Mys Tic File Announce (MTAFile) has been released as Open Source. The current
+code is posted on github at https://github.com/DRPanther/MTAFile
+With this release, the version has been changed to 2.0.0.0. You are free to 
+modify the code in any way you would like. All that I ask, is if you make
+changes, please send me a copy. I'm excited to see what other can do with the
+mess of code that I have going here. :)
 
 This version has a major change! The name of the config file has changed to
 a more generic name. The reason for this, is the config file will be used for
