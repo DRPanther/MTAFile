@@ -69,4 +69,10 @@
            to the output file for better readability.
 1.7.1.1 -=>Added some comments to the code, so I can figure out what the heck I
            was doing at the time of writing it. :) Decided the program was
-           running smoothly on this end, and should release the newest version.
+           running smoothly on this end, and should release the newest version
+1.7.2.1 -=>Decided it was time to open this project up to the world. From this 
+           version on, it will be open source, and I'll try to keep this up to
+	   date on github as well. You are free to modify this code in any way
+	   you would like. The only thing I ask, is that if changes are made, 
+	   please send me a copy to see what was changed. Just call it my 
+	   curiosity getting the better of me. :)
