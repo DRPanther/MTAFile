@@ -11,8 +11,12 @@ Simple program to generate new file reports
 copy TIC files into a seperate announcement
   directory, and let mtafile do its work
 
-Major changes in this version - Please read
- the mtafile.txt file for more information
+Version 2.0.0.0 has been officially released
+   as Open Source under GNU license 3.0. 
+
+ Source code is included here, or the latest
+      version is can be obtained from:
+    https://github.com/DRPanther/MTAFile
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
