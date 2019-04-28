@@ -2,7 +2,7 @@
 <CONFIG>
   <ProjectSession>
     <Version Value="10"/>
-    <BuildModes Active="Linux64"/>
+    <BuildModes Active="Win32"/>
     <Units Count="2">
       <Unit0>
         <Filename Value="mtafile.pas"/>

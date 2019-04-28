@@ -79,4 +79,5 @@
 2.0.0.0 -=>I've bumped the version to 2.0.0.0, so that it's easier to see when
            the change to open source was done. I've also added a few more notes
            to the code. I hope everything is commented enough to let you know 
-           what I was doing.
+           what I was doing. The current version of the code can be found at:
+           https://github.com/DRPanther/MTAFile
