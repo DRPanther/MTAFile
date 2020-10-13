@@ -87,13 +87,15 @@ with the ';', are considered comments and will be ignored. The remaining lines
 include:
 
 
-```TicPath=c:\path\to\incoming\tic\files\
+```Plain Text
+TicPath=c:\path\to\incoming\tic\files\
 
 BBS=Another Awesome BBS
 
 Sysop=Exaulted Ruler
 
-LogPath=c:\path\to\log\files\```
+LogPath=c:\path\to\log\files\
+```
 
 
 Please note, the trailing slash/backslash is required in the paths. There will
@@ -133,7 +135,8 @@ able to figure the commands out. :) If not, contact me, and I'll provide more
 information on the Linux installation.
 
 
-```Command line parameters:
+```Plain Text
+Command line parameters:
 
 -a - Announce mode
 
@@ -141,14 +144,19 @@ information on the Linux installation.
 
 -h - Help screen
 
-?  - Help screen```
+?  - Help screen
+```
 
 
-```mtafile.exe -a```
+```Plain Text
+mtafile.exe -a
+```
 
 or
 
-```./mtafile -a```
+```Plain Text
+./mtafile -a
+```
 
 
 This will process any .tic files that are located in the directory given in 
@@ -156,11 +164,15 @@ the config file. It will generate the mtafile.rpt file, and combine the
 header.txt and footer.txt files, if they exist, to create the final.txt.
 
 
-```mtafile.exe -r #```
+```Plain Text
+mtafile.exe -r #
+```
 
 or 
 
-```./mtafile -r #```
+```Plain Text
+./mtafile -r #
+```
 
 
 This will generate a report using the information in the mtafile.dat file, for
@@ -177,7 +189,8 @@ are received:
 -=>snip<=-
 
 
-```c:
+```Bash
+c:
 
 cd \bbs\mystic\
 
@@ -213,7 +226,8 @@ goto end
 
 :end
 
-cd \bbs\mystic\```
+cd \bbs\mystic\
+```
 
 
 -=>snip<=-
@@ -231,7 +245,8 @@ following:
 -=>snip<=-
 
 
-```c:
+```Bash
+c:
 
 cd \bbs\mystic\
 
@@ -245,7 +260,8 @@ mtafile -a
 
 cd \bbs\mystic\
 
-mutil fileannounce.ini```
+mutil fileannounce.ini
+```
 
 
 -=>snip<=-
@@ -277,7 +293,7 @@ The FILEANNOUNCE.INI file that I am using looks like this:
 
 -=>snip<=-
 
-
+```Plain Text
 [General]
 
 
@@ -314,7 +330,7 @@ The FILEANNOUNCE.INI file that I am using looks like this:
 	file1_addr    = 1:317/3
 	
 	file1_delfile = false
-	
+```	
 
 -=>snip<=-
 
